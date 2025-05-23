@@ -1,0 +1,36 @@
+body{
+    background-color: #1e1e2f;
+    display: flex;
+    justify-content: center;
+}
+
+#login{
+    color: white;
+}
+
+#login #login-form{
+    margin-top: 25vh;
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#login-form input{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    height: 3vh;
+    box-sizing: border-box;
+}
+
+#login-form button{
+    background-color: #0077ff;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    height: 3vh;
+    cursor: pointer;
+    border: none;
+}
